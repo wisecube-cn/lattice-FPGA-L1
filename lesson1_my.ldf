@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lesson1_my" device="LCMXO2-4000HC-4MG132C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="Water_led"/>
+        <Source name="Clock_div.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Clock_div"/>
+        </Source>
+        <Source name="Color_led.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Color_led"/>
+        </Source>
+        <Source name="Debounce.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Debounce"/>
+        </Source>
+        <Source name="Heart_beat.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Heart_beat"/>
+        </Source>
+        <Source name="Lightness.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Lightness"/>
+        </Source>
+        <Source name="Segment_led.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Segment_led"/>
+        </Source>
+        <Source name="Water_led.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Water_led"/>
+        </Source>
+        <Source name="Segment_led_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="lesson1_my.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="Segment_led_tb/Segment_led_tb.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lesson1_my1.sty"/>
+</BaliProject>
